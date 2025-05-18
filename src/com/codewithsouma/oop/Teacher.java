@@ -5,6 +5,12 @@ public class Teacher {
      String gender;
      long phone;
 
+     Teacher(String name, String gender, long phone){
+         this.name = name;
+         this.gender = gender;
+         this.phone = phone;
+     }
+
      public void displayInformation(){
          System.out.println("Name: "+name);
          System.out.println("Gender: "+gender);
