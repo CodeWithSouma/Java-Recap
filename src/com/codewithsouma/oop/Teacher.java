@@ -12,4 +12,9 @@ public class Teacher {
          System.out.println();
      }
 
+    public void setInformation(String name, String gender, long phone) {
+        this.name = name;
+        this.gender = gender;
+        this.phone = phone;
+    }
 }
