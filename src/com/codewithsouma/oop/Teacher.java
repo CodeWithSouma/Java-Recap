@@ -5,9 +5,16 @@ public class Teacher {
      String gender;
      long phone;
 
+     //constructor overloading
      Teacher() {
          System.out.println("Default Constructor");
      }
+
+    Teacher(String name, String gender){
+        System.out.println("Parameterised constructor");
+        this.name = name;
+        this.gender = gender;
+    }
 
      Teacher(String name, String gender, long phone){
          System.out.println("Parameterised constructor");
