@@ -4,6 +4,7 @@ public class Test {
     public static void main(String[] args) {
         Teacher teacher = new Teacher("Soumadip Dey", "Male", 8768454982L);
         Teacher teacher2 = new Teacher("Soumik Nandi", "Male", 7076922914L);
+        Teacher teacher3 = new Teacher();
 
         //teacher.setInformation("Soumadip Dey", "Male", 8768454982L);
         //teacher2.setInformation("Soumik Nandi", "Male", 7076922914L);

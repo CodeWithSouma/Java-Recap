@@ -5,7 +5,12 @@ public class Teacher {
      String gender;
      long phone;
 
+     Teacher() {
+         System.out.println("Default Constructor");
+     }
+
      Teacher(String name, String gender, long phone){
+         System.out.println("Parameterised constructor");
          this.name = name;
          this.gender = gender;
          this.phone = phone;
