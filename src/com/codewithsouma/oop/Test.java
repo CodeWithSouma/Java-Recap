@@ -30,5 +30,9 @@ public class Test {
 //        System.out.println("Gender: "+teacher2.gender);
 //        System.out.println("Phone: "+teacher2.phone);
 
+        ReturningValue returningValue = new ReturningValue();
+        int square = returningValue.square(5);
+        System.out.println(square);
+
     }
 }
