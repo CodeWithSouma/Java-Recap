@@ -55,11 +55,36 @@ public class Test {
         StaticMethod.display2();*/
         //StaticBlock.display();
 
-        Box box1 = new Box(10, 10, 10);
+        /*Box box1 = new Box(10, 10, 10);
         System.out.println("Volume of the Box1: " + box1.displayVolume());
 
         Box box2 = new Box(20, 30, 10);
-        System.out.println("Volume of the Box2: " +box2.displayVolume());
+        System.out.println("Volume of the Box2: " +box2.displayVolume());*/
 
+        /*Overload overload = new Overload();
+        int sum = overload.add(10, 20, 30);
+        System.out.println(sum);*/
+
+        /*CallByValue value = new CallByValue();
+        int x = 5;
+        System.out.println(x);
+        value.change(x);// actual parameter
+        System.out.println(x);
+
+        CallByReference obj = new CallByReference();
+        obj.name = "Priyanka";
+        System.out.println(obj.name);
+
+        CallByReference.change(obj);
+        System.out.println(obj.name);*/
+
+       /* AddDemo obj = new AddDemo();
+        int add = obj.add(10, 20);
+        System.out.println(add);
+        add = obj.add(10, 20, 30);
+        System.out.println(add);*/
+
+        RecursionDemo recursionDemo = new RecursionDemo();
+        System.out.println(recursionDemo.factorial(5));
     }
 }
