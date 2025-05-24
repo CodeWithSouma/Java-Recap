@@ -53,7 +53,13 @@ public class Test {
        /* StaticMethod obj = new StaticMethod();
         obj.display1();
         StaticMethod.display2();*/
-        StaticBlock.display();
+        //StaticBlock.display();
+
+        Box box1 = new Box(10, 10, 10);
+        System.out.println("Volume of the Box1: " + box1.displayVolume());
+
+        Box box2 = new Box(20, 30, 10);
+        System.out.println("Volume of the Box2: " +box2.displayVolume());
 
     }
 }
