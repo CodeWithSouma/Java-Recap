@@ -84,7 +84,16 @@ public class Test {
         add = obj.add(10, 20, 30);
         System.out.println(add);*/
 
-        RecursionDemo recursionDemo = new RecursionDemo();
-        System.out.println(recursionDemo.factorial(5));
+        /*RecursionDemo recursionDemo = new RecursionDemo();
+        System.out.println(recursionDemo.factorial(5));*/
+
+        /*Person person = new Person("Soumadip", 25);
+        person.setName("Priyanka");
+        person.display();*/
+
+        Engineer engineer = new Engineer("Soumadip Dey", 25, "Btech in CSE");
+        engineer.display();
+
+        if (engineer instanceof Person) System.out.println("Engineer is instance of Person");
     }
 }
