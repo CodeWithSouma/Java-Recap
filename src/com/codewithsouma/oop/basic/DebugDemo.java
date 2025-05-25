@@ -1,4 +1,4 @@
-package com.codewithsouma.oop;
+package com.codewithsouma.oop.basic;
 
 public class DebugDemo {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package com.codewithsouma.oop;
+package com.codewithsouma.oop.basic;
 
 public class RecursionDemo {
     public int factorial(int n){

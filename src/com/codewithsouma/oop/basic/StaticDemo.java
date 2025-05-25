@@ -1,4 +1,4 @@
-package com.codewithsouma.oop;
+package com.codewithsouma.oop.basic;
 
 public class StaticDemo {
     String universityName = "Burdwan University";

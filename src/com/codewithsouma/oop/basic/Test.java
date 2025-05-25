@@ -1,8 +1,4 @@
-package com.codewithsouma.oop;
-
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.List;
+package com.codewithsouma.oop.basic;
 
 public class Test {
     public static void main(String[] args) {
